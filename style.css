@@ -1,0 +1,146 @@
+
+/* Base design colors. 4 main colors in this design: #2B3A55,#CE7777, #E8C4C4 and #F2E5E5. */
+body {
+    background-color: #2b3a55;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 16px;
+    color: #F2E5E5;
+
+    
+}
+
+/* Link colors and behavior. */
+a:link {
+    color: #F2E5E5;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #E8C4C4;
+    text-decoration: none;
+}
+  
+  
+a:hover {
+    color: #CE7777;
+    text-decoration: none;
+}
+
+  /* Login and schopping cart are located in top-right corner menu that is this header selection. */
+.header {
+    font-size: 32px;
+    background-color: #2b3a55;
+    position:absolute;
+    top: 0px; left: 210px;
+    padding: 15px;
+    width: 80%;
+    text-align: right;
+
+}
+
+/* Sidemenu */
+.sidemenu {
+    background-color: #CE7777;
+    position: absolute;
+    top: 0px; left: 30px;
+    padding: 5px;
+    width: 185px;
+    height: 800px;
+    display: inline-block;
+
+}
+
+/* Text/links location block for sidemenu. There's no links for this design implementation. However if links were 
+to be added, above link coloring would be matched to this also. */
+.menu {
+    position:absolute;
+    top: 215px; left: 30px;
+    font-size: 20px;
+}
+
+/* This block is where major content is located at every page. */
+.content {
+    position: absolute;
+    left: 240px; top: 65px;
+    border: 0px;
+    height: auto;
+
+}
+
+/* A block that is used to center text in product detail view. */
+.al {
+    text-align: center;
+}
+
+/* Product description location block for product detail view. */
+.description {
+    position: absolute;
+    left: 500px; top: 100px;
+    border: 0px;
+    height: auto;
+    width: 200px;
+    padding: 5px;
+
+
+}
+
+/* A noticeable price tag is important in conducting business. */
+
+.price {
+    font-size: 74px;
+    font-weight: bold;
+}
+
+p {
+    padding: 5px;
+}
+
+/* Title/name styling for product in product detail view. */
+.name {
+    position: absolute;
+    left: 0px; top: 380px;
+    border: 0px;
+    height: auto;
+    width: 400px;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 36px;
+
+
+}
+
+img {
+    padding: 5px;
+}
+
+/* A block that is used for product listing view. */
+td {
+    width: 150px;
+    height: 200x;
+
+}
+
+/* Total cost, shipping and taxes provided on final bill. */
+.carttotal {
+    position: absolute;
+    left: 700px; top: 100px;
+    border: 0px;
+    height: auto;
+    width: 300px;
+    color: #CE7777;
+    font-size: 32px;
+
+}
+
+/* A smaller font size for taxes. */
+tr.small {
+    font-size: 12px;
+
+}
+
+/*  Checkout button at the bottom of shopping cart page. */
+
+td.checkout {
+    position: relative;
+    left: 150px; top: 80px;
+}
+
