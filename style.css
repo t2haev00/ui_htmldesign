@@ -30,8 +30,8 @@ a:hover {
 .header {
     font-size: 32px;
     background-color: #2b3a55;
-    position: relative;
-    top: 0px; left: 210px;
+    position: absolute;
+    top: 0px; right: 10px;
     padding: 15px;
     width: 80%;
     text-align: right;
