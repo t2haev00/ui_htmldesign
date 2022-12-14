@@ -147,8 +147,8 @@ td.checkout {
 
 /*  Add-to-cart button at the bottom of product detaill view page. */
 .addtocart {
-        position: absolute;
-    left: 700px; top: 400px;
+    position: absolute;
+    left: 700px; top: 420px;
     border: 0px;
     height: auto;
     width: 300px;
