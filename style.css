@@ -30,6 +30,7 @@ a:hover {
 .header {
     font-size: 32px;
     background-color: #2b3a55;
+    display: block;
     position: absolute;
     top: 0px; 
     right: 0px;
