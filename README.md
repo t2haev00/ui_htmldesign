@@ -1,5 +1,8 @@
 # ui_htmldesign
-<h1>Figma UI design and HTML&amp;CSS implementation for 3 different views:</h1>
-product listing, product details and shopping cart. School project for a HTML course.
-<p>Very, very beginner at HTML coding and Figma design.</p>
+Course: HTML and CSS Programming
+
+The purpose of this course was to learn basic HTML and CSS, and design UI models with Figma.
+
+The task was to create three views (shopping cart, product detail view and product listing) with no actual functionalities, just static pages. 
+
 
